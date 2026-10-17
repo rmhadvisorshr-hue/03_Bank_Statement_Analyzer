@@ -61,3 +61,5 @@ Root (`package.json`):
 -   `npm run benchmark:pdfs`, `npm run debug:pdf`, `npm run compare:namdar`: Delegate to the same-named scripts in `backend/package.json` (under `backend/scripts/`).
 
 `frontend/package.json` and `backend/package.json` each expose their own scripts (`dev`/`build`/`preview`/`lint`/`format` for frontend, `typecheck`/`benchmark:pdfs`/`debug:pdf`/`compare:namdar` for backend) if you need to run either workspace on its own.
+
+<!-- evening.ps1 test line - safe to delete -->
